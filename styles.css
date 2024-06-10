@@ -1,18 +1,106 @@
 * {
-    background-color: rgb(179, 255, 249);
-    font-family:Arial, Helvetica, sans-serif
+    font-family:'Times New Roman', Times, serif;
+    /*border: red 5px dotted;*/
+}
+
+body{
+    background-image: url("./images/flat-lay-delicious-ingredients-assortment-with-copy-space.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
     text-align: center;
+    color: white;
+    font-size: 96px;
+    width:800px;
+    margin: auto;
+    background-color: hsla(60, 2%, 40%, 0.75);
+    margin-bottom: 200px;
+
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 52px;
+    width:50%;
+    margin: auto;
+    background-color: hsla(60, 2%, 40%, 0.75);
+    margin-top: 10px;
+
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    font-size: 46px;
+    width:50%;
+    margin: auto;
+    background-color: hsla(60, 2%, 40%, 0.75);
+    margin-top: 10px;
+
 }
 
 #footnote {
     text-align: right;
     font-style: italic;
+    margin-top: 10%;
+    bottom: 10px;
+    color:white;
+    font-size: 24px;
 }
 
 .caption {
     font-size: 12px;
     font-style: italic;
+}
+
+.list li{
+    padding: 30px;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    text-align: center;
+    width: 600px;
+    height: auto;
+    font-size:72px;
+    background-color: hsla(60, 2%, 40%, 0.75)
+}
+
+.steps{
+    background-color: hsla(60, 2%, 40%, 0.75);
+    margin:auto;
+    text-align: center;
+    width:50%
+}
+
+.steps li{
+    font-size:24px;   
+    display: block;
+}
+
+a:hover {
+    color: white;
+}
+ 
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: white;
+  }
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+  }
+
+img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-top: -100px;
 }
